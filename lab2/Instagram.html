@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            width: 100%;
+            background: #f0f2f5;
+        }
+        .firstform{
+            background: white;
+            position: absolute;
+            width: 250px;
+            height: 220px;
+            padding: 100px 20px 5px 20px;
+            /*box-shadow: 5px 5px 6px -7px;*/
+            border: 1.5px solid grey;
+            margin: 10vh 850px;
+        }
+        .secondform{
+            background: white;
+            position: absolute;
+            width: 270px;
+            height: 40px;
+            padding: 0px 10px;
+            border: 1.5px solid grey;
+            margin: 55vh 850px;
+
+        }
+        input[type="text"], input[type="password"]{
+            display: block;
+            background: white;
+            margin: auto;
+            border: black solid 1.5px;
+            width: 200px;
+            padding: 5px 10px;
+            border-radius: 5px;
+            text-align: center;
+            color: black;
+            font-family: Arial;
+            font-size: 13px;
+        }
+        button{
+            border: none;
+            border-radius: 5px;
+            background: #00A5D2;
+            font-weight: bold;
+            margin: auto;
+            cursor: pointer;
+            display: block;
+            width: 220px;
+            padding: 5px 10px;
+            color: white;
+        }
+        .ili{
+            color: black;
+            text-align: center;
+            /*font-weight: bold;*/
+            font-size: 14px;
+        }
+        .facebook{
+            text-align: center;
+            font-weight: bold;
+        }
+        .singFacebook{
+            font-size: 18px;
+        }
+        .forgetpass{
+            font-size: 10px;
+        }
+        .textsecfoorm{
+            text-align: center;
+            font-size: 12px;
+            padding: 0px 0px;
+            color: black;
+            font-family: Arial;
+        }
+        .defolttext{
+            position: absolute;
+            width: 250px;
+            font-size: 14px;
+            font-family: Arial;
+            font-weight: 300;
+            margin: 62vh 850px;
+            padding: 0px 20px;
+            text-align: center;
+        }
+
+        .textinsta{
+            width: 150px;
+            margin: 15vh 920px;
+            position: absolute;
+            /*z-index: 1;*/
+        }
+
+        .appstore{
+            width: 135px;
+            position: absolute;
+            margin: 62vh 870px;
+        }
+        .googleplay{
+            width: 112px;
+            position: absolute;
+            margin: 64.2vh 1000px;
+        }
+        .instaphone{
+            width: 250px;
+            position: absolute;
+            margin: 9vh 500px;
+            border-radius: 42px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <form class="firstform" action="">
+        <input type="text" placeholder="Номер телефона, имя пользователя или эл. адрес"><br>
+        <input type="password" placeholder="Пароль"><br>
+        <button type="submit">Войти</button>
+        <p class="ili">ИЛИ</p>
+        <div class="facebook">
+            <a href="" class="singFacebook">Войти через Facebook</a><br>
+            <a href="" class="forgetpass">Забыли пароль?</a>
+        </div>
+
+    </form>
+
+<!--    <div class="imgtextinsta">-->
+<!--        <img src="textinsta.png" alt="textinsta">-->
+<!--    </div>-->
+
+    <img class="textinsta" src="textinsta.png" alt="textinsta">
+
+    <form action="" class="secondform">
+        <p class="textsecfoorm">У вас еще нет аккаунта <a href="">Зарегестрироваться</a></p>
+    </form>
+
+    <form action="" class="thirdform">
+        <p class="defolttext">Установите приложение.</p>
+    </form>
+
+    <a href=""><img class="appstore" src="appstore.png" alt="appstore"></a>
+    <a href=""></a><img class="googleplay" src="googleplay.png" alt="googleplay"></a>
+    <img class="instaphone" src="instaphone.png" alt="instaphone">
+
+</body>
+</html>
