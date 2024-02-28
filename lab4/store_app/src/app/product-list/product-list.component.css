@@ -13,7 +13,7 @@ p {
 }
 
 .products-item {
-  margin-top: 20px;
+  margin-top: 20px;z
   padding: 10px;
   display: flex;
   flex-direction: column;
@@ -39,7 +39,7 @@ hr {
 }
 
 .products-item img {
-  max-height: 300px;
+  max-height: 250px;
 }
 
 .products-item h3 {
@@ -64,9 +64,3 @@ hr {
   font-weight: bold;
   margin-top: 20px;
 }
-
-/*
-Copyright Google LLC. All Rights Reserved.
-Use of this source code is governed by an MIT-style license that
-can be found in the LICENSE file at https://angular.io/license
-*/

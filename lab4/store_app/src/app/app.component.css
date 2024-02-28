@@ -1,0 +1,9 @@
+div{
+    width: 100%;
+    height: 20px;
+}
+button{
+    width: 100px;
+    border: #1d2b76 solid 1px;
+    border-radius: 5px;
+}
