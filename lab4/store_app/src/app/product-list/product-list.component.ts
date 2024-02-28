@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { products, Product } from "../items/products";
+import { products, Product } from "../products";
 
 @Component({
   selector: "app-product-list",
@@ -7,10 +7,13 @@ import { products, Product } from "../items/products";
   styleUrls: ["./product-list.component.css"],
 })
 export class ProductListComponent {
-  currentCategory: string = "Все";
-  allItems: any = products;
-  categories: string[] = this.handleCategoriesList(this.allItems);
+  products = [...products];
 
-
-
+  share(product: Product): void {
+    const shareLink = product.link;
+    const shareMessage = `Check out this product: ${shareLink}`;
+    const encodedMessage = encodeURIComponent(shareMessage);
+    const telegramLink = `https://t.me/share/url?url=${shareLink}&text=${encodedMessage}`;
+    window.open(telegramLink, "_blank");
+  }
 }
