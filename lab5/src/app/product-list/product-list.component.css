@@ -36,6 +36,7 @@
     background-color: #3070cf;
     color: white;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 .product {
@@ -68,4 +69,5 @@
     background-color: #1976d2;
     color: white;
     border: 1px solid lightskyblue;
+    margin-top: 10px;
 }

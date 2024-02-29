@@ -21,7 +21,7 @@ export const products: Product[] = [
     description: "256Gb черный",
     rating: 5,
     url: "https://kaspi.kz/shop/p/apple-iphone-15-pro-max-256gb-chernyi-113138363/?c=750000000&m=7080000&sr=1&ref=shared_link",
-    imgURL: "https://resoures.cdn-kaspi.kz/img/m/p/hdf/hc7/83559837007902.jpg?format=gallery-large",
+    imgURL: "https://resources.cdn-kaspi.kz/img/m/p/hdf/hc7/83559837007902.jpg?format=gallery-medium",
     link: "https://t.me/c/2123912270/3",
     category: {name: "Телефон"},
     likes: 0
@@ -155,7 +155,7 @@ export const products: Product[] = [
     imgURL: "https://resources.cdn-kaspi.kz/img/m/p/h51/h12/83821072056350.jpg?format=gallery-medium",
     url: "https://kaspi.kz/shop/p/your-kzt-kzt178-belyi-42-44-108134895/?c=750000000&sr=22&ref=shared_link",
     link: "https://t.me/c/2123912270/3",
-    category: {name: "Одeжка"},
+    category: {name: "Одeжда"},
     likes: 0
   },
   {
@@ -167,7 +167,7 @@ export const products: Product[] = [
     imgURL: "https://resources.cdn-kaspi.kz/img/m/p/h21/he2/84459292131358.jpg?format=gallery-medium",
     url: "https://kaspi.kz/shop/p/875068-chernyi-universal-nyi-114357723/?c=750000000&sr=4&ref=shared_link",
     link: "https://t.me/c/2123912270/3",
-    category: {name: "Одежда"},
+    category: {name: "Одeжда"},
     likes: 0
   },
   {
@@ -179,7 +179,7 @@ export const products: Product[] = [
     imgURL: "https://resources.cdn-kaspi.kz/img/m/p/hf3/hb7/80492122603550.jpg?format=gallery-medium",
     url: "https://kaspi.kz/shop/p/povsednevnye-brjuki-pdwr-22001535-chernyi-s-102933736/?c=750000000&sr=33&ref=shared_link",
     link: "https://t.me/c/2123912270/3",
-    category: {name: "Одежда"},
+    category: {name: "Одeжда"},
     likes: 0
   },
   {
@@ -191,7 +191,7 @@ export const products: Product[] = [
     url: "https://kaspi.kz/shop/p/norkovaja-chernyi-universal-nyi-114211400/?c=750000000&sr=15&ref=shared_link",
     imgURL: "https://resources.cdn-kaspi.kz/img/m/p/hdf/h2a/84404869365790.jpg?format=gallery-medium",
     link: "https://t.me/c/2123912270/3",
-    category: {name: "Одежда"},
+    category: {name: "Одeжда"},
     likes: 0
   },
   {
@@ -203,7 +203,79 @@ export const products: Product[] = [
     url: "https://kaspi.kz/shop/p/bomber-boni-a144-seryi-universal-nyi-113495911/?c=750000000&sr=25&ref=shared_link",
     imgURL: "https://resources.cdn-kaspi.kz/img/m/p/h3d/h5d/83994359463966.jpg?format=gallery-medium",
     link: "https://t.me/c/2123912270/3",
-    category: {name: "Одежда"},
+    category: {name: "Одeжда"},
+    likes: 0
+  },
+  {  id: 21,
+    name: "Смарт-часы Apple Watch SE 2 Gen (2022) 40 мм starlight-бежевый",  price: 133201,
+    description: "поддержка платформ: iOS\n" +
+      "материал корпуса: алюминий\n" +
+      "цвет корпуса: starlight\n" +
+      "форма корпуса: прямоугольная\n" +
+      "интерфейсы: Bluetooth, ,Wi-Fi, ,NFC\n" +
+      "технология экрана: OLED\n" +
+      "объем встроенной памяти: 32 Гб",
+    rating: 5,
+    url: "https://kaspi.kz/shop/p/apple-watch-se-2-gen-2022-40-mm-starlight-bezhevyi-106362759/?c=750000000",  imgURL: "https://resources.cdn-kaspi.kz/img/m/p/h9d/hf8/64534203301918.jpg?format=gallery-medium",
+    link: "https://t.me/angularwebdev2023/3",
+    category: { name: "Часы" },
+    likes: 0,
+  },
+  {  id: 22,
+    name: "Смарт-часы Huawei Watch GT 4 41 мм золотистый",
+    price: 21898,
+    description: "поддержка платформ: Android, iOS\n" +
+      "материал корпуса: нерж. сталь\n" +
+      "цвет корпуса: золотистый\n" +
+      "форма корпуса: круглая\n" +
+      "интерфейсы: Bluetooth\n" +
+      "технология экрана: AMOLED\n" +
+      "время работы: до 5 дней",
+    rating: 5,
+    url: "https://kaspi.kz/shop/p/huawei-watch-gt-4-41-mm-zolotistyi-113400057/?c=750000000",
+    imgURL: "https://resources.cdn-kaspi.kz/img/m/p/h07/he9/83879550779422.jpg?format=gallery-medium",
+    link: "https://t.me/angularwebdev2023/10",
+    category: { name: "Часы" },
+    likes: 0
+  },
+  {  id: 23,
+    name: "Смарт-часы Samsung Galaxy Watch 4 Classic SM-R890NZKACIS 46 мм черный-черный",
+    price: 59674,
+    description: "поддержка платформ: Android\n" +
+      "материал корпуса: алюминий\n" +
+      "цвет корпуса: черный\n" +
+      "форма корпуса: круглая\n" +
+      "интерфейсы: Bluetooth, ,NFC",
+    rating: 5,
+    url: "https://kaspi.kz/shop/p/samsung-galaxy-watch-4-classic-sm-r890nzkacis-46-mm-chernyi-chernyi-102170938/?c=750000000",
+    imgURL: "https://resources.cdn-kaspi.kz/img/m/p/hc9/h47/64342261268510.jpg?format=gallery-medium",  link: "https://t.me/angularwebdev2023/9",
+    category: { name: "Часы" },
+    likes: 0
+  },
+  {  id: 24,
+    name: "Смарт-часы Smart Baby Watch Z6 GPS зеленый",
+    price: 4344,
+    description: "поддержка платформ: Android, ,iOS\n" +
+      "материал корпуса: пластик\n" +
+      "цвет корпуса: зеленый\n" +
+      "форма корпуса: многогранная\n" +
+      "интерфейсы: USB\n" +
+      "технология экрана: AMOLED",
+    rating: 5,
+    url: "https://kaspi.kz/shop/p/smart-baby-watch-z6-gps-zelenyi-101910569/?c=750000000",
+    imgURL: "https://resources.cdn-kaspi.kz/img/m/p/h88/h10/64165178507294.jpg?format=gallery-medium",
+    link: "https://t.me/angularwebdev2023/14",
+    category: { name: "Часы" },
+    likes: 0
+  },
+  {  id: 25,
+    name: "Amazfit Bip U Pro",
+    price: 25368,
+    description: "Безрамочный дизайн часов Amazfit Bip U Pro оборудованы экраном AMOLED с диагональю 1.43 дюйма и разрешением 320x302 пикселя, обеспечивающим превосходное визуальное отображение, благодаря которому все входящие звонки, сообщения и напоминания становятся предельно четкими.",  rating: 5,
+    url: "https://kaspi.kz/shop/p/amazfit-bip-u-pro-chernyi-100914321/?c=750000000#!/item",
+    imgURL: "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/h8b/h68/33549396967454/amazfit-bip-u-pro-cernyj-100914321-1-Container.jpg",
+    link: "https://t.me/angularwebdev2023/17",
+    category: { name: "Часы" },
     likes: 0
   }
-  ]
+]

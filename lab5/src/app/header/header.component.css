@@ -6,6 +6,7 @@ header {
     align-items: center;
     background-color: #3070cf;
     border-bottom: 1px solid lightgray;
+    font-family: Arial, sans-serif;
 }
 
 header p {
