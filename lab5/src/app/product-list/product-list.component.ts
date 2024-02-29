@@ -12,14 +12,6 @@ export class ProductListComponent {
   allItems: any = products;
   categories: string[] = this.handleCategoriesList(this.allItems);
 
-  public get getAllItems(): any {
-    return this.allItems;
-  }
-
-  public set setAllItems(val: any) {
-    this.allItems = val;
-  }
-
   share(link: string) {
     document.location.href = link;
   }
