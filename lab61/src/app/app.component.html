@@ -1,6 +1,13 @@
 <div>
   <app-profile></app-profile>
 </div>
-<div>
-  <app-home></app-home>
-</div>
+
+<nav>
+  <a routerLink="/home-component" routerLinkActive="active" ariaCurrentWhenActive="page">
+    <button class="btnHome">
+        Home
+    </button>
+  </a>
+</nav>
+
+<router-outlet></router-outlet>
