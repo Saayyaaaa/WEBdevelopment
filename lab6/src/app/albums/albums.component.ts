@@ -29,7 +29,7 @@ export class AlbumsComponent implements OnInit {
 
   ngOnInit(): void {
     this.albumsService.getAlbums().pipe(
-      map( x=> x.slice(0,10))
+      map( x=> x.slice(0,100))
     ).subscribe((response) => {
         this.albums = response;
       },

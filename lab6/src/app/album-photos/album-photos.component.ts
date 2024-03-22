@@ -35,7 +35,7 @@ export class AlbumPhotosComponent implements OnInit {
           );
           this.albumService.getPhotos(id).subscribe(
             (response) => {
-              this.photos = response.slice(0, 3);
+              this.photos = response.slice(0, 10);
             },
             (error) => {
               console.log(error);
