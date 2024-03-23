@@ -5,4 +5,3 @@ while cur < n:
     cur *= 2
     k += 1
 print(k)
-x`
