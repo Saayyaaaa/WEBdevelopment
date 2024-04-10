@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7864b14a-26c6-46de-aaf3-4f2a23840369" name="Changes" comment="7lab">
-      <change afterPath="$PROJECT_DIR$/lab8/my_venv/Lib/site-packages/product-0.1.1.1.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab8/my_venv/Lib/site-packages/product-0.1.1.1.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab8/my_venv/Lib/site-packages/product-0.1.1.1.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab8/my_venv/Lib/site-packages/product-0.1.1.1.dist-info/REQUESTED" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab8/my_venv/Lib/site-packages/product-0.1.1.1.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab8/my_venv/Lib/site-packages/product-0.1.1.1.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab8/my_venv/Lib/site-packages/product/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab8/shopback/api/migrations/0002_product_delete_products.py" afterDir="false" />
-    </list>
+    <list default="true" id="7864b14a-26c6-46de-aaf3-4f2a23840369" name="Changes" comment="7lab" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +30,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Сая/WebstormProjects/WEBdevelopment/lab9",
+    "last_opened_file_path": "C:/Users/Сая/WebstormProjects/WEBdevelopment/lab10",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -54,13 +45,6 @@
       <recent name="C:\Users\Сая\WebstormProjects\WEBdevelopment\lab7\codingbat\string1" />
       <recent name="C:\Users\Сая\WebstormProjects\WEBdevelopment\lab7\informatics\input" />
     </key>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-python-sdk-09665e90c3a7-b11f5e8da5ad-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.15026.15" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -77,6 +61,7 @@
       <workItem from="1711911801430" duration="676000" />
       <workItem from="1711960033298" duration="84000" />
       <workItem from="1712671386032" duration="32000" />
+      <workItem from="1712750676590" duration="35000" />
     </task>
     <task id="LOCAL-00001" summary="7lab">
       <option name="closed" value="true" />
