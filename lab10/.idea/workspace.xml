@@ -1,35 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="bfab6fee-1e44-4ecd-988a-adfabb37d882" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hh_back/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hh_back/api/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hh_back/api/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hh_back/api/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hh_back/api/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hh_back/api/migrations/0002_alter_vacancy_company.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hh_back/api/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hh_back/api/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hh_back/api/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hh_back/api/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hh_back/api/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hh_back/api/views/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hh_back/api/views/cbv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hh_back/api/views/fbv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hh_back/api/views/generic_v1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hh_back/api/views/generic_v2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hh_back/api/views/views_labw.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hh_back/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hh_back/hh_back/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hh_back/hh_back/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hh_back/hh_back/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hh_back/hh_back/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hh_back/hh_back/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hh_back/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hh_back/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2euNsLGyUBxWCdXqEiCPjLAKeQf" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Сая/WebstormProjects/WEBdevelopment/lab9",
+    "last_opened_file_path": "C:/Users/Сая/WebstormProjects/WEBdevelopment/lab10/hh_back/api/views",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql_aurora_aws"
+    ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Сая\WebstormProjects\WEBdevelopment\lab10\hh_back\api\views" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Сая\WebstormProjects\WEBdevelopment\lab10\hh_back\api\views" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-09665e90c3a7-b11f5e8da5ad-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.15026.15" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -39,10 +102,16 @@
       <option name="presentableId" value="Default" />
       <updated>1712750708775</updated>
       <workItem from="1712750709782" duration="13000" />
+      <workItem from="1712755357313" duration="816000" />
+      <workItem from="1712812238682" duration="20000" />
+      <workItem from="1713161813151" duration="18231000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
