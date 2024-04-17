@@ -1,11 +1,18 @@
 from django.db import models
-
+from django.contrib.auth.models import User
 
 class Company(models.Model):
     name = models.CharField(max_length=255)
     description = models.TextField()
     city = models.CharField(max_length=255)
     address = models.TextField()
+    user = models.ForeignKey(
+        User,
+        on_delete=models.CASCADE,
+        related_name='companies',
+        null=True,
+        blank=True
+    )
 
     class Meta:
         verbose_name = "Company"
@@ -29,6 +36,13 @@ class Vacancy(models.Model):
         Company,
         on_delete=models.CASCADE,
         related_name="vacancies"
+    )
+    user = models.ForeignKey(
+        User,
+        on_delete=models.CASCADE,
+        related_name='vacancies',
+        null=True,
+        blank=True
     )
 
     def to_json(self):

@@ -4,33 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfab6fee-1e44-4ecd-988a-adfabb37d882" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/hh_back/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hh_back/api/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hh_back/api/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hh_back/api/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hh_back/api/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hh_back/api/migrations/0002_alter_vacancy_company.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hh_back/api/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hh_back/api/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hh_back/api/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hh_back/api/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hh_back/api/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hh_back/api/views/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hh_back/api/views/cbv.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hh_back/api/views/fbv.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hh_back/api/views/generic_v1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hh_back/api/views/generic_v2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hh_back/api/views/views_labw.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hh_back/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hh_back/hh_back/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hh_back/hh_back/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hh_back/hh_back/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hh_back/hh_back/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hh_back/hh_back/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hh_back/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hh_back/requirements.txt" afterDir="false" />
+    <list default="true" id="bfab6fee-1e44-4ecd-988a-adfabb37d882" name="Changes" comment="lab10">
+      <change afterPath="$PROJECT_DIR$/hh_front/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hh_front/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hh_front/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hh_front/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hh_front/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hh_front/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hh_front/server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hh_front/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hh_front/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hh_front/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hh_front/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hh_front/src/app/app.config.server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hh_front/src/app/app.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hh_front/src/app/app.routes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hh_front/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hh_front/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hh_front/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hh_front/src/main.server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hh_front/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hh_front/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hh_front/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hh_front/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hh_front/tsconfig.spec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hh_back/api/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/hh_back/api/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hh_back/api/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/hh_back/api/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hh_back/api/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/hh_back/api/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hh_back/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/hh_back/api/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hh_back/api/views/generic_v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/hh_back/api/views/generic_v2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hh_back/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/hh_back/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hh_back/hh_back/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/hh_back/hh_back/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hh_back/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/hh_back/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +52,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -64,7 +73,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Сая/WebstormProjects/WEBdevelopment/lab10/hh_back/api/views",
+    "last_opened_file_path": "C:/Users/Сая/WebstormProjects/WEBdevelopment/lab10/hh_back",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -105,7 +114,19 @@
       <workItem from="1712755357313" duration="816000" />
       <workItem from="1712812238682" duration="20000" />
       <workItem from="1713161813151" duration="18231000" />
+      <workItem from="1713197886226" duration="44000" />
+      <workItem from="1713285951800" duration="6556000" />
+      <workItem from="1713292877411" duration="3998000" />
     </task>
+    <task id="LOCAL-00001" summary="lab10">
+      <option name="closed" value="true" />
+      <created>1713197908767</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1713197908767</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,5 +134,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="lab10" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab10" />
   </component>
 </project>

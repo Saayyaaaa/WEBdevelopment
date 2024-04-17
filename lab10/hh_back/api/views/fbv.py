@@ -1,7 +1,7 @@
 import json
 
 from django.http import JsonResponse
-from hh_back.api.models import Company, Vacancy
+from .models import Company, Vacancy
 
 from rest_framework.decorators import api_view
 from rest_framework import status
@@ -61,7 +61,7 @@ def vacancies_by_company(request, id):
     except Company.DoesNotExist as e:
         return JsonResponse({"error": str(e)})
 
-    companies_json = [company.to_json() for company in Company.objects.filter()]
+    companies_json = [companies.to_json() for companies in Company.objects.filter()]
     return JsonResponse(companies_json, safe=False)
 
 
